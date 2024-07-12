@@ -53,9 +53,9 @@ html {
 
 body {
   font-family: var(--font-family-base);
+  color: var(--text-color);
   font-size: var(--font-size-medium);
   font-weight: var(--font-weight-regular);
-  color: var(--text-color);
   line-height: var(--line-height-base);
 }
 
@@ -76,10 +76,6 @@ a:active {
   background-color: var(--color-light-grey);
 }
 
-.visually-hidden {
-  display: none;
-}
-
 h1,
 h2,
 h3,
@@ -90,38 +86,16 @@ h6 {
   font-weight: var(--font-weight-bold);
 }
 
-.card-category,
-.section-tagline {
-  color: var(--color-primary);
-}
-
-.section-header {
-  text-align: var(--section-header-align);
-  padding: var(--section-header-padding);
-}
-
-.section-tagline {
-  font-family: var(--font-family-title);
-  text-transform: var(--section-tagline-transform);
-  font-weight: var(--font-weight-bold);
-}
-
-.section-title {
-  font-family: var(--font-family-title);
-  font-size: var(--font-size-xx-large);
-  font-weight: var(--font-weight-bold);
-  margin: var(--section-title-margin);
-  color: var(--section-title-color);
-}
-
-.container {
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
+.visually-hidden {
+  display: none;
 }
 
 .section {
   padding: var(--section-padding);
+}
+.section-header {
+  text-align: var(--section-header-align);
+  padding: var(--section-header-padding);
 }
 
 .section-body {
@@ -132,9 +106,30 @@ h6 {
   padding: var(--section-footer-padding);
   text-align: var(--section-footer-align);
 }
+.card-category,
+.section-tagline {
+  color: var(--color-primary);
+}
 
-.footer {
-  padding: var(--footer-padding);
+.section-title {
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-xx-large);
+  font-weight: var(--font-weight-bold);
+  margin: var(--section-title-margin);
+  color: var(--section-title-color);
+}
+
+.section-tagline {
+  font-family: var(--font-family-title);
+  text-transform: var(--section-tagline-transform);
+  font-weight: var(--font-weight-bold);
+  margin: var(--section-tagline-margin);
+}
+
+.container {
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .navbar-menu {
